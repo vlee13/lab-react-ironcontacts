@@ -32,7 +32,24 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+img {
+  width: 60px;
+  height: 85px;
+}
+
+
+li {
+  list-style-type: none;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
